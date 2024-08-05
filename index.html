@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos de GIT y Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CONCEPTOS DE GIT</h1>
+    </header>
+    <main>
+        <section id="version-control">
+            <h2>1. ¿Qué es un control de versiones?</h2>
+            <p>Un control de versiones es un sistema que permite realizar un seguimiento de los cambios realizados en un conjunto de archivos a lo largo del tiempo. Esto permite revertir cambios, colaborar con otros y mantener un historial detallado de modificaciones.</p>
+        </section>
+
+        <section id="git">
+            <h2>2. ¿Qué es GIT?</h2>
+            <p>GIT es un sistema de control de versiones distribuido, diseñado para manejar todo tipo de proyectos con rapidez y eficiencia. Es especialmente útil para el trabajo en equipo y la gestión de proyectos de software.</p>
+        </section>
+
+        <section id="repository">
+            <h2>3. ¿Qué es un repositorio?</h2>
+            <p>Un repositorio es un espacio donde se almacena un proyecto y todas sus versiones. Puede ser local (almacenado en tu propia máquina) o remoto (almacenado en un servidor, accesible a través de internet).</p>
+        </section>
+
+        <section id="github">
+            <h2>4. ¿Qué es GITHUB?</h2>
+            <p>GITHUB es una plataforma de alojamiento de repositorios GIT. Permite gestionar proyectos, colaborar con otros desarrolladores y alojar código fuente, además de proporcionar herramientas adicionales para la integración y el despliegue continuo.</p>
+        </section>
+
+        <section id="branches">
+            <h2>5. ¿Qué es una rama en GIT y para qué sirve?</h2>
+            <p>Una rama en GIT es una línea paralela de desarrollo que permite trabajar en características o cambios independientes sin afectar la rama principal (generalmente llamada "main" o "master").</p>
+        </section>
+
+        <section id="states">
+            <h2>6. ¿Cuáles son los estados en GIT?</h2>
+            <p>En GIT, un archivo puede estar en uno de tres estados: modificado (modificado pero no preparado para commit), preparado (marcado para ser incluido en el próximo commit) y confirmado (almacenado en el historial del repositorio).</p>
+        </section>
+
+        <section id="terminal">
+            <h2>7. ¿Qué es la terminal, consola o línea de comandos y para qué sirve?</h2>
+            <p>La terminal, consola o línea de comandos es una interfaz de texto que permite a los usuarios interactuar con el sistema operativo o el software mediante comandos. Es útil para realizar tareas de administración, automatización y desarrollo.</p>
+        </section>
+
+        <section id="commands">
+            <h2>8. Escribir el funcionamiento de cada uno de los siguientes comandos:</h2>
+            <ul>
+                <li><strong>ls:</strong> Lista los archivos y directorios en el directorio actual.</li>
+                <li><strong>cd &lt;directorio&gt;:</strong> Cambia al directorio especificado.</li>
+                <li><strong>cd ..:</strong> Sube un nivel en la jerarquía de directorios.</li>
+                <li><strong>mkdir &lt;nombre&gt;:</strong> Crea un nuevo directorio con el nombre especificado.</li>
+                <li><strong>touch &lt;nombre&gt;:</strong> Crea un archivo vacío con el nombre especificado.</li>
+                <li><strong>rm &lt;nombre&gt;:</strong> Elimina el archivo especificado.</li>
+                <li><strong>cp &lt;nombre&gt; &lt;directorio&gt;:</strong> Copia el archivo especificado al directorio indicado.</li>
+                <li><strong>mv &lt;nombre&gt; &lt;directorio&gt;:</strong> Mueve el archivo especificado al directorio indicado.</li>
+            </ul>
+        </section>
+
+        <section id="git-commands">
+            <h2>9. Realizar un listado con el nombre y el funcionamiento de los comandos vistos en la sesión
+                de clase de GIT.</h2>
+            <ul>
+                <li><strong>git --version:</strong> Mostrar la version de GIT instalada en el equipo.</li>
+                <li><strong>git config --global user.name "[name]":</strong> Establece el nombre que deseas esté anexado a tus transacciones de commit.</li>
+                <li><strong>git config --global user.email "[email address]":</strong> Establece el e-mail que deseas esté anexado a tus transacciones de commit.</li>
+                <li><strong>git config user.name:</strong> Mostar el usuario</li>
+                <li><strong>git config user.email:</strong> Mostrar el correo electronico</li>
+                <li><strong>git init [project-name]:</strong> Crea un nuevo repositorio local con el nombre especificado.</li>
+                <li><strong>git clone [url]:</strong> Descarga un proyecto y toda su historia de versión.</li>
+                <li><strong>git add [file]:</strong> Toma una instantánea del archivo para preparar la versión.</li>
+                <li><strong>git status:</strong> Enumera todos los archivos nuevos o modificados que se deben confirmar.</li>
+                <li><strong>git commit -m "[descriptive message]":</strong> Registra las instantáneas del archivo permanentemente en el historial de versión.</li>
+                <li><strong>git log:</strong> Enumera el historial de la versión para la rama actual.</li>
+                <li><strong>git push [alias] [branch]:</strong> Carga todos los commits de la rama local al GitHub.</li>
+        
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
